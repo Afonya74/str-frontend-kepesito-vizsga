@@ -1,19 +1,19 @@
 import { Injectable } from '@angular/core';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class HttpService {
+  BASE_URL =
+    'https://tr360-frontend-exam-april.azurewebsites.net/Afonya74/movies';
 
-  BASE_URL = 'http://localhost:3000/movies';
+  constructor(undefined) {}
 
-  constructor(undefined) { }
-
-  getMovieList():any {
+  getMovieList(): any {
     return null;
   }
 
-  deleteMovie(id):any {
+  deleteMovie(id): any {
     return null;
   }
 }
